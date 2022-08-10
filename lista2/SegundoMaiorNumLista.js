@@ -9,9 +9,11 @@ lista.forEach(function(indice){
     if(indice > maior){
         maior = indice
     }
-    if (indice > segundoMaior && segundoMaior < maior){
-        segundoMaior = indice
-    }
+    lista.forEach(function(indice){
+        if (indice > segundoMaior && indice < maior){
+            segundoMaior = indice
+        }
+    })
 })
 console.log(maior)
 console.log(segundoMaior)
