@@ -1,7 +1,10 @@
-let nota1 = 8
-let nota2 = 5
-let nota3 = 7
-let nota4 = 10
-let media = (nota1 + nota2 + nota3 + nota4 ) / 4
+let notas = [8, 9, 10, 7]
+let media = 0
+let soma = 0
+for(cont in notas){
+    soma += notas[cont]
+}
 
-console.log(`A média das notas :[ ${nota1}, ${nota2}, ${nota3}, ${nota4} ] é : ${media}`)
+media = soma / notas.length
+
+console.log(`A média das notas ${notas} é : ${media}`)

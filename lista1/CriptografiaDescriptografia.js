@@ -3,6 +3,8 @@ let textoDiferente = ''
 let textoCriptografado = []
 let textoDescriptografado = []
 let cont = 0
+
+
 // Criptografa o texto 
 while(cont < textoParaCriptografar.length){
     textoDiferente = textoParaCriptografar[cont].replace('e', 'd')
