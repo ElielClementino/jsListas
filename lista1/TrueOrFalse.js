@@ -1,11 +1,11 @@
-let verdadeiro = ['yes', 'y', 's', 'sim']
-let falso = ['no', 'n']
-let input = 'YES'
+let verdadeiro = ['yes', 'y', 's', 'sim', '👍', '1']
+
+let input = 'si'
 
 
 if(verdadeiro.includes(input.toLowerCase())){
     console.log(true)
 }
-if(falso.includes(input.toLowerCase())){
+else{
     console.log(false)
 }

@@ -14,8 +14,11 @@ lista.forEach(function(indice){
     }
 })
 
+
+
+
 console.log('PARES')
 console.log(`São ${pares.length} numeros pares, sendo eles ${pares}`)
 
 console.log('IMPARES')
-console.log(`São ${impares.length} numeros pares, sendo eles ${impares}`)
+console.log(`São ${impares.length} numeros impares, sendo eles ${impares}`)
