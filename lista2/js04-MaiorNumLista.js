@@ -4,8 +4,8 @@ let lista = [42, 44, 57, 44, 77, 39, 51, 46, 32, 93,
 
 
 let maior = Number.MIN_SAFE_INTEGER  //número minimo possível
-for(var indice of lista){
-    if (maior < indice){
+for(var indice of lista) {
+    if (maior < indice) {
         maior = indice
     }
 }

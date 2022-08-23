@@ -9,4 +9,4 @@ for(cont = 0; cont < lista.length; cont++){
 
 let media = soma / lista.length
 
-console.log(`A media dos números da lista é -> ${media}`)
+console.log(`A media dos números da lista é -> ${media.toFixed(1)}`)

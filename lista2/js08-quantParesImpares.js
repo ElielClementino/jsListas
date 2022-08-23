@@ -5,17 +5,14 @@ var lista = [42, 44, 57, 44, 77, 39, 51, 46, 32, 93,
 
 let impares = []
 let pares = []
+
 lista.forEach(function(indice){
     if (indice % 2 == 0){
         pares.push(indice)
-    }
-    else{
+    } else{
         impares.push(indice)
     }
 })
-
-
-
 
 console.log('PARES')
 console.log(`São ${pares.length} numeros pares, sendo eles ${pares}`)
