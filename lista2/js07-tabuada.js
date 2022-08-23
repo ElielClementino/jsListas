@@ -1,18 +1,14 @@
-let fatorialEsquerdo = 1
+let fatorialEsquerdo = 5 // entrada do usuario
 let fatorialDireito = 1
 let produto = 0
-let cont = 0
+
 while (true){
     produto = fatorialEsquerdo * fatorialDireito
     console.log(`| ${fatorialEsquerdo} x ${fatorialDireito} == ${produto} |`)
     fatorialDireito += 1
-    if (fatorialDireito == 11){
-        fatorialEsquerdo += 1
-        fatorialDireito = 1
-        cont += 1
-        console.log('---New Tab---')
-    }
-    if (cont == 10){
-        break
-    }
+
+   if (fatorialDireito >10){
+       break
+   }
+
 }

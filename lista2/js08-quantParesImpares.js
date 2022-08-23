@@ -6,7 +6,7 @@ var lista = [42, 44, 57, 44, 77, 39, 51, 46, 32, 93,
 let impares = []
 let pares = []
 
-lista.forEach(function(indice){
+lista.forEach((indice) =>{
     if (indice % 2 == 0){
         pares.push(indice)
     } else{
